@@ -47,7 +47,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         content.title = "Local notification"
         content.body = "You need to work hard, duuuude"
         
-        let date = Date().addingTimeInterval(5)
+        let date = Date().addingTimeInterval(10)
         
         let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
         
